@@ -1,0 +1,22 @@
+{
+  "name": "modular-js-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaviguasch/modular-js-project-prac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaviguasch/modular-js-project-prac/issues"
+  },
+  "homepage": "https://github.com/xaviguasch/modular-js-project-prac#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
+}
