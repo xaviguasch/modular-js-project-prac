@@ -1,11 +1,12 @@
-import { Tooltip } from './Tooltip.js'
-import { DOMHelper } from '../Utility/DOMHelper.js'
+import { Tooltip } from './Tooltip'
+import { DOMHelper } from '../Utility/DOMHelper'
 
 export class ProjectItem {
-  hasActiveTooltip = false
+  // hasActiveTooltip = false  // webpack doesn't support this syntax
 
   constructor(id, updateProjectListsFunction, type) {
     this.id = id
+    this.hasActiveTooltip = false
     this.updateProjectListsHandler = updateProjectListsFunction
     this.connectMoreInfoButton()
     this.connectSwitchButton(type)
